@@ -2,13 +2,13 @@
 
 create .env with : 
 
-PORT=
+PORT=5000
 
 SECRET_USER=
 
 SECRET_PASSWORD=
 
-CLIENT_URL=
+CLIENT_URL=http://localhost:3000
 
 ##
 yarn install 
