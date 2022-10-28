@@ -1,0 +1,71 @@
+.hero {
+    padding: 10vw;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+
+.h1 {
+    margin: 0;
+}
+
+.left__links {
+    display: flex;
+    gap: .5rem;
+}
+
+.left__links a {
+    position: relative;
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+}
+
+.left__hr {
+    background-color: orange;
+    height: 10px;
+    width: 70%;
+    border: none;
+    margin-left: 0;
+}
+
+.right__img_container {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+
+.right__img_container__img {
+    border-radius: 10px 10px 0 0;
+}
+
+.right__p {
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .hero {
+        display: flex;
+        align-items: center;
+        padding: 4rem;
+    }
+
+    .left,
+    .right {
+        width: 50%;
+    }
+
+    .left__links a {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .right__img_container {
+        width: 70%;
+    }
+}

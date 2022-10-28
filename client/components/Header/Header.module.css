@@ -1,0 +1,38 @@
+.header {
+    display: unset;
+}
+
+
+.nav {
+    position: sticky;
+    top: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    z-index: 10;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    background-color: white;
+}
+
+.left a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.right a[data-active='true'] {
+    color: gray;
+}
+
+.right a {
+    display: inline-block;
+    margin: 0 .5rem;
+    padding: .5rem;
+}
+
+
+@media (min-width: 1024px) {
+    .nav {
+        padding: 1rem 4rem;
+    }
+}
